@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kinsmate Homes Furniture & Interiors</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+    /* Header */
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                  url("https://images.unsplash.com/photo-1615874959474-d609969a20ed");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 120px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 44px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    /* Sections */
+    .section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h3 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #000;
+    }
+
+    /* About */
+    .about-text {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    /* Services */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 35px 25px;
+      border-radius: 8px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .card h4 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      color: #000;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #444;
+    }
+
+    /* Contact */
+    .contact {
+      text-align: center;
+      background: #000;
+      color: #fff;
+      padding: 70px 20px;
+    }
+
+    .contact h3 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .socials a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    .socials a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KINSMATE HOMES</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Furniture & Interior Excellence</h2>
+    <p>
+      Kinsmate Homes Furniture & Interiors specializes in custom-made furniture,
+      premium home décor, and professional interior solutions for homes,
+      offices, and hotels.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3>About Us</h3>
+    <p class="about-text">
+      At Kinsmate Homes Furniture & Interiors, we design and craft high-quality
+      custom chairs, furniture pieces, and elegant décor tailored to your taste.
+      We also deliver professional interior works for residential spaces,
+      corporate offices, and hospitality projects, ensuring durability, comfort,
+      and timeless style.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3>Our Services</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Custom Furniture</h4>
+        <p>
+          Handcrafted custom chairs and furniture designed to fit your space,
+          style, and comfort needs.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Home Décor</h4>
+        <p>
+          Elegant décor pieces that enhance the beauty and personality of your
+          home or workspace.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Interior Works</h4>
+        <p>
+          Professional interior solutions for hotels, offices, and residential
+          projects with a premium finish.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h3>Contact Us</h3>
+    <p>Email: kinsmatefurniture@gmail.com</p>
+    <p>Phone: 09022123060 | 09033987395</p>
+
+    <div class="socials">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Kinsmate Homes Furniture & Interiors. All Rights Reserved.
+  </footer>
+
+</body>
+</html>  
